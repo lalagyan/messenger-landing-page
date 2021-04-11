@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 3.2%;
+    margin-left: 1%;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    font-size: 1.1em;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.content {
+    position: relative;
+    margin-left: 6%;
+    bottom: 80%
+}
+
+.content h1 {
+    font-size: 75px;
+    background: linear-gradient(to left, #ff5c87 78%, #4762ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content p {
+    font-weight: 300;
+    font-size: 1em;
+    color:rgb(87, 87, 87);
+    padding-top: 2%;
+    line-height: 1.5em;
+    margin-bottom: 2%;
+}
+
+.hero {
+    position: relative;
+    margin-left: 53%;
+    margin-top: 2%;
+}
+
+.form input {
+    font-weight: 300;
+    font-size: 0.9em;
+    padding: 9px 150px 9px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+    border: 0px;
+    color:rgb(87, 87, 87);
+}
+
+.login {
+    background-color: #006AFF;
+    color: #fff;
+    padding: 13px 20px 13px 20px;
+    margin-top: 20px;
+    font-size: 1em;
+    border-radius: 25px;
+    border: 0px;
+    cursor: pointer;
+}
+
+a {
+    margin-left: 15px;
+    color: #006AFF;
+    font-size: 0.8em;
+}
